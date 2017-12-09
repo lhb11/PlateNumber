@@ -19,6 +19,9 @@
 		F078A09F1FDBD43700DCF743 /* PlateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F078A09E1FDBD43700DCF743 /* PlateViewController.m */; };
 		F078A0A41FDBD48300DCF743 /* DOPDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = F078A0A21FDBD48300DCF743 /* DOPDropDownMenu.m */; };
 		F078A0A51FDBD48300DCF743 /* DOPDropDownMenu-Enhanced.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F078A0A31FDBD48300DCF743 /* DOPDropDownMenu-Enhanced.xcassets */; };
+		F078A0B11FDBDFBA00DCF743 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = F078A0AE1FDBDFBA00DCF743 /* 2.png */; };
+		F078A0B21FDBDFBA00DCF743 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = F078A0AF1FDBDFBA00DCF743 /* 3.png */; };
+		F078A0B31FDBDFBA00DCF743 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = F078A0B01FDBDFBA00DCF743 /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,9 @@
 		F078A0A11FDBD48300DCF743 /* DOPDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOPDropDownMenu.h; sourceTree = "<group>"; };
 		F078A0A21FDBD48300DCF743 /* DOPDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOPDropDownMenu.m; sourceTree = "<group>"; };
 		F078A0A31FDBD48300DCF743 /* DOPDropDownMenu-Enhanced.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "DOPDropDownMenu-Enhanced.xcassets"; sourceTree = "<group>"; };
+		F078A0AE1FDBDFBA00DCF743 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		F078A0AF1FDBDFBA00DCF743 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		F078A0B01FDBDFBA00DCF743 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,7 @@
 		E47E2EA61E669CCF00DE50ED /* CarNumberInPut */ = {
 			isa = PBXGroup;
 			children = (
+				F078A0AD1FDBDFBA00DCF743 /* Screenshot */,
 				F078A0A01FDBD48300DCF743 /* DOPDropDownMenu - Enhanced */,
 				F078A09D1FDBD43700DCF743 /* PlateViewController.h */,
 				F078A09E1FDBD43700DCF743 /* PlateViewController.m */,
@@ -162,6 +169,16 @@
 				F078A0A31FDBD48300DCF743 /* DOPDropDownMenu-Enhanced.xcassets */,
 			);
 			path = "DOPDropDownMenu - Enhanced";
+			sourceTree = "<group>";
+		};
+		F078A0AD1FDBDFBA00DCF743 /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				F078A0AE1FDBDFBA00DCF743 /* 2.png */,
+				F078A0AF1FDBDFBA00DCF743 /* 3.png */,
+				F078A0B01FDBDFBA00DCF743 /* 1.png */,
+			);
+			path = Screenshot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,10 +287,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F078A0B11FDBDFBA00DCF743 /* 2.png in Resources */,
+				F078A0B31FDBDFBA00DCF743 /* 1.png in Resources */,
 				E47E2EDE1E669DFF00DE50ED /* ProvinceCollectionViewCell.xib in Resources */,
 				E47E2EB71E669CCF00DE50ED /* LaunchScreen.storyboard in Resources */,
 				F078A0A51FDBD48300DCF743 /* DOPDropDownMenu-Enhanced.xcassets in Resources */,
 				E47E2EB41E669CCF00DE50ED /* Assets.xcassets in Resources */,
+				F078A0B21FDBDFBA00DCF743 /* 3.png in Resources */,
 				E47E2EB21E669CCF00DE50ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
